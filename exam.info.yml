@@ -1,0 +1,8 @@
+# Nom du module
+name: 'exam'
+# Description du module.
+description : 'exam module for D8'
+# Type de code
+type: module
+# Version de Drupal
+core: 8.x
