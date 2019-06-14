@@ -1,0 +1,7 @@
+file_upload.form:
+ path: '//file_upload-form'
+ defaults:
+   _title: 'File Upload form'
+   _form: '\Drupal\file_upload\Form\File_uploadForm'
+ requirements:
+   _access: 'TRUE'

@@ -1,7 +1,7 @@
 # Nom du module
-name: 'exam'
+name: 'file_upload'
 # Description du module.
-description : 'exam module for D8'
+description : 'module pour upload fichier'
 # Type de code
 type: module
 # Version de Drupal

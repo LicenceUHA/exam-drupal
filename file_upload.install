@@ -1,0 +1,21 @@
+<?php
+/** @file ... */
+ use Drupal\Core\Database\Database;
+/**
+ * Implements file_upload_schema().
+ */
+function file_upload_schema() {
+   
+    $schema['file_upload'] = [
+        'description' => 'Stores File_upload',
+        'fields' => array(
+            'id' => array(
+                'type' => 'serial',
+                'not null' => TRUE,
+            ),
+        ),
+         
+        'primary key' => ['id'],
+      ];
+      return $schema;
+}
